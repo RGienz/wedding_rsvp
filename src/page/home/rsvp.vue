@@ -101,39 +101,99 @@
             </div>
         </section>
 
-            <!-- THIRD PAGE -->
-            <section class="relative h-screen w-full flex items-start justify-center overflow-hidden snap-start p-3">
-                <div>
-                    <img
-                        src="../../reference/image/sageGreen4.png"
-                        alt="firstPage"
-                        class="absolute inset-0 w-full h-full object-cover opacity-80 animate-slow-zoom"
-                        style="animation-delay: 0.5s;"
-                    />
-                    <div class="relative z-10 text-center text-[#2c2c2c]">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.2em] uppercase">Guest Attendance Concierge</h2>
-                        <div class="w-12 h-[1px] bg-stone-400 mx-auto my-4"></div>
-                        <p class="mt-2 text-gray-500">test3</p>
-                    </div>
-                </div>
-            </section>
+        <!-- THIRD PAGE -->
+        <section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden py-24 px-4 bg-white">
+            <div class="relative z-10 w-full max-w-5xl mx-auto text-center text-[#2c2c2c] px-2">
+               <span class="text-[10px] tracking-[0.4em] uppercase text-stone-400 block mb-2 font-sans">Guest Attendance Concierge</span>
+               <span class="text-3xl sm:text-4xl font-light tracking-[0.15em] uppercase text-stone-800">Wedding Details</span>
+               <div class="w-16 h-[1px] bg-stone-400 mx-auto my-4 mb-12" />
 
-            <!-- FOURTH PAGE -->
-            <section class="relative h-screen w-full flex items-start justify-center overflow-hidden snap-start p-3">
-                <div>
-                    <img
-                        src="../../reference/image/sageGreen4.png"
-                        alt="firstPage"
-                        class="absolute inset-0 w-full h-full object-cover opacity-80 animate-slow-zoom"
-                        style="animation-delay: 0.5s;"
-                    />
-                    <div class="relative z-10 text-center text-[#2c2c2c]">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.2em] uppercase">RSVP</h2>
-                        <div class="w-12 h-[1px] bg-stone-400 mx-auto my-4"></div>
-                        <p class="mt-2 text-gray-500">test4</p>
+               <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch max-w-4xl mx-auto">
+                    <div class="bg-[#fcfbf9] p-8 rounded border border-stone-200/80 flex flex-col items-center text-center transition-all duration-300 hover:shadow-md">
+                        <p class="text-[11px] tracking-[0.25em] uppercase font-semibold text-stone-700 mb-4 border-b border-stone-300 pb-2 w-full">Dress Code</p>
+                        <p class="text-xs uppercase tracking-widest text-stone-600 mb-2 font-medium font-sans">Formal Attire Requested</p>
+                        <p class="text-[12px] text-stone-500 font-serif italic loading-relaxed mb-6">We kindly invite our guests to celebrate with us clean-tailored in our seasonal palette.</p>
+                        <div class="w-full grid grid-cols-2 gap-2 mb-6 overflow-hidden rounded">
+                            <img src="../../reference/image/sageGreen4.png" class="w-full h-16 object-cover opacity-90" />
+                            <img src="../../reference/image/sageGreen5.png" class="w-full h-16 object-cover opacity-90" />
+                        </div>
+                        <div class="flex space-x-2.5 my-auto">
+                            <p class="w-5 h-5 rounded-full bg-[#7D8471] ring-1 ring-offset-2 ring-stone-300"></p>
+                            <p class="w-5 h-5 rounded-full bg-[#A3A899] ring-1 ring-offset-2 ring-stone-300"></p>
+                            <p class="w-5 h-5 rounded-full bg-[#E5DEC9] ring-1 ring-offset-2 ring-stone-300"></p>
+                        </div>
+                    </div>
+                    <div class="bg-[#fcfbf9] p-8 rounded border border-stone-200/80 text-center flex flex-col justify-between transition-all duration-300 hover:shadow-md">
+                        <p class="text-[11px] tracking-[0.25em] uppercase font-semibold text-stone-700 mb-6 border-b border-stone-300 pb-2 w-full">The Schedule</p>
+                        <div class="space-y-6 text-xs flex-grow flex flex-col justify-center">
+                            <div>
+                                <p class="font-semibold text-stone-800 tracking-widest font-sans text-sm">8:30 PM</p>
+                                <p class="text-stone-500 font-serif italic mt-0.5">Arrival &amp; Church</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-stone-800 tracking-widest font-sans text-sm">3:30 PM</p>
+                                <p class="text-stone-500 font-serif italic mt-0.5">Arrival &amp; Welcome Drinks</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-stone-800 tracking-widest font-sans text-sm">4:00 PM</p>
+                                <p class="text-stone-500 font-serif italic mt-0.5">Sacred Exchange Ceremony</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-stone-800 tracking-widest font-sans text-sm">6:30 PM</p>
+                                <p class="text-stone-500 font-serif italic mt-0.5">Grand Dinner &amp; Revelry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[#fcfbf9] p-8 rounded border border-stone-200/80 flex flex-col justify-between text-center transition-all duration-300 hover:shadow-md">
+                        <div>
+                            <h3 class="text-[11px] tracking-[0.25em] uppercase font-semibold text-stone-700 mb-4 border-b border-stone-200 pb-2 w-full">Important Notes</h3>
+                            <p class="text-xs uppercase tracking-widest text-stone-600 mb-1 font-medium font-sans">Adults-Only Occasion</p>
+                            <p class="text-[12px] text-stone-500 font-serif italic leading-relaxed mb-4">To allow all guests a night of relaxation, our wedding day is an adults-only occasion.</p>
+                        </div>
+                        <div class="border-t border-stone-200/80 pt-4 mt-4">
+                            <p class="text-[10px] tracking-[0.2em] uppercase text-stone-400 font-sans mb-1">Gifts Registry</p>
+                            <p class="text-[12px] text-stone-600 font-serif italic leading-relaxed">Your presence on our day is the ultimate gift.</p>
+                        </div>
+                    </div>
+               </div>
+               <div class="mt-12 p-6 max-w-4xl mx-auto border-border-stone-200/60 bg-[#fcfbf9]/50 rounded text-left grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                    <div>
+                        <p class="text-xs uppercase tracking-widest font-semibold text-stone-700 mb-1">
+                            Accommodations &amp; Stay
+                        </p>
+                        <p class="text-[12px] text-stone-500 font-serif italic leading-relaxed">
+                           We want this weekend to be a beautiful escape for you.
+                            Come early to enjoy the crystal pools, savor the curated menus, and join us for a night of endless fun, dance, and celebration.
+                        </p>
+                    </div>
+                    <div class="overflow-hidden rounded h-24 bg-stone-100 relative group cursor-pointer border border-stone-200">
+                        <div class="absolute inset-0 bg-stone-900/10 group-hover:bg-stone-900/20 transition-colors z-10 flex items-center justify-center">
+                        <span class="text-[10px] uppercase tracking-widest text-white font-medium drop-shadow-sm px-3 py-1 bg-stone-900/40 rounded backdrop-blur-xs transition-all duration-300 group-hover:scale-105">
+                            View Map Locations
+                        </span>
+                        </div>
+                        <img src="../../reference/image/sageGreen4.png" alt="Geographic map preview" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+
+        <!-- FOURTH PAGE -->
+        <section class="relative h-screen w-full flex items-start justify-center overflow-hidden snap-start p-3">
+            <div>
+                <img
+                    src="../../reference/image/sageGreen4.png"
+                    alt="firstPage"
+                    class="absolute inset-0 w-full h-full object-cover opacity-80 animate-slow-zoom"
+                    style="animation-delay: 0.5s;"
+                />
+                <div class="relative z-10 text-center text-[#2c2c2c]">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.2em] uppercase">RSVP</h2>
+                    <div class="w-12 h-[1px] bg-stone-400 mx-auto my-4"></div>
+                    <p class="mt-2 text-gray-500">test4</p>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
