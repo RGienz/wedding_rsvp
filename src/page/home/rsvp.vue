@@ -45,13 +45,66 @@
                         </div>
                     </div>
 
+                    <p class="font-medium text-[10px] sm:text-2xl md:text-3xl text-gray-500 mt-8 sm:mt-12 uppercase ">
+                        reception to follow
+                    </p>
+                    <div class="absolute -bottom-16 sm:-bottom-20 animate-bounce text-stone-400 text-xs tracking-widest uppercase opacity-60">
+                        ↓ Scroll Down
+                    </div>
                     
             </div>
 
         </div>
-       
+        <!-- SECOND PAGE -->
+            <section class="relative h-screen w-full flex items-start justify-center overflow-hidden snap-start p-3">
+                <div>
+                    <img
+                        src="../../reference/image/sageGreen4.png"
+                        alt="firstPage"
+                        class="absolute inset-0 w-full h-full object-cover opacity-80 animate-slow-zoom"
+                        style="animation-delay: 0.5s;"
+                    />
+                    <div class="relative z-10 text-center text-[#2c2c2c]">
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.2em] uppercase">Our Story</h2>
+                        <div class="w-12 h-[1px] bg-stone-400 mx-auto my-4"></div>
+                        <p class="mt-2 text-gray-500">test2</p>
+                    </div>
+                </div>
+            </section>
 
+            <!-- THIRD PAGE -->
+            <section class="relative h-screen w-full flex items-start justify-center overflow-hidden snap-start p-3">
+                <div>
+                    <img
+                        src="../../reference/image/sageGreen4.png"
+                        alt="firstPage"
+                        class="absolute inset-0 w-full h-full object-cover opacity-80 animate-slow-zoom"
+                        style="animation-delay: 0.5s;"
+                    />
+                    <div class="relative z-10 text-center text-[#2c2c2c]">
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.2em] uppercase">Guest Attendance Concierge</h2>
+                        <div class="w-12 h-[1px] bg-stone-400 mx-auto my-4"></div>
+                        <p class="mt-2 text-gray-500">test3</p>
+                    </div>
+                </div>
+            </section>
 
+            <!-- FOURTH PAGE -->
+            <section class="relative h-screen w-full flex items-start justify-center overflow-hidden snap-start p-3">
+                <div>
+                    <img
+                        src="../../reference/image/sageGreen4.png"
+                        alt="firstPage"
+                        class="absolute inset-0 w-full h-full object-cover opacity-80 animate-slow-zoom"
+                        style="animation-delay: 0.5s;"
+                    />
+                    <div class="relative z-10 text-center text-[#2c2c2c]">
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.2em] uppercase">RSVP</h2>
+                        <div class="w-12 h-[1px] bg-stone-400 mx-auto my-4"></div>
+                        <p class="mt-2 text-gray-500">test4</p>
+                    </div>
+                </div>
+            </section>
     </div>
 </template>
 
