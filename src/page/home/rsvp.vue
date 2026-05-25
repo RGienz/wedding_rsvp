@@ -32,7 +32,18 @@
                     <div class="text-2xl font-light font-sans tracking-[0.15em] text-gray-800 border-y border-gray-400 py-2 w-full max-w-[240px] ">
                         XX <span class="text-gray-300 font-thin mx-1">|</span> XX <span class="text-gray-300 font-thin mx-1">|</span> XXXX
                     </div>
-                   
+                    
+                    <div class="uppercase text-[11px] tracking-[0.2em] text-gray-600 mt-6 space-y-4">
+                        <div>
+                            <p class="text-[9px] text-gray-400 mb-0.5">At</p>
+                            <p class="font-medium text-gray-800">X:XX XX</p>
+                        </div>
+
+                        <div class="">
+                                <p class="font-medium text-gray-800 ">Casa Hotel</p>
+                                <p class="text-[10px] text-gray-500 lowercase first-letter:uppercase">1548 street los angeles ca</p>
+                        </div>
+                    </div>
 
                     
             </div>
