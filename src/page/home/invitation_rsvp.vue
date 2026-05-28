@@ -228,7 +228,7 @@ const {
 
         <!-- fourth page -->
         <section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden py-20 px-4 bg-[#f4f1eb]">
-            <img src="../../reference/image/sageGreen4.png" class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-multiply" alt="Background Texture" />
+            <img src="../../reference/sageGreen4.png" class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-multiply" alt="Background Texture" />
             
             <div class="relative z-10 w-full max-w-xl mx-auto text-center text-[#2c2c2c] bg-white/80 backdrop-blur-xl p-8 sm:p-10 rounded shadow-md border border-white">
                 <span class="text-[10px] tracking-[0.4em] uppercase text-stone-400 block mb-1 font-sans">Attendance Check-In</span>
@@ -263,6 +263,16 @@ const {
                                 <div @click="setAttendance('no')" :class="['flex items-center justify-center border rounded p-3.5 cursor-pointer transition-all duration-200 select-none', rsvpData.attending === 'no' ? 'border-stone-600 bg-stone-50 shadow-xs ring-1 ring-stone-600' : 'border-stone-300/80 bg-white/50 hover:bg-white hover:border-stone-400']">
                                     <input type="radio" id="decline" name="attendance-choice" value="no" :checked="rsvpData.attending === 'no'" @change="setAttendance('no')" class="accent-stone-700 mr-2.5 h-3.5 w-3.5 cursor-pointer" />
                                     <label for="decline" class="text-xs uppercase tracking-wider font-medium text-stone-700 cursor-pointer">Regretfully Decline</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div v-if="rsvpData.attending === 'no'" class="space-y-5 pt-5 border-t border-stone-200/80 transition-all duration-300">
+
+                            <div>
+                                <label class="block text-[10px] uppercase tracking-[0.2em] font-medium text-stone-600 mb-2">Why Cannot Attend</label>
+                                <div class="flex space-x-6 text-xs">
+                                    <textarea @input="rsvpData.notToAttendMessageReg = rsvpData.notToAttendMessageReg.replace(/[^a-zA-Z]/g, '')" v-model="rsvpData.notToAttendMessageReg" cols="30" rows="3" class="w-full bg-white/90 border border-stone-300/80 px-3.5 py-2.5 text-xs rounded focus:outline-noen focus:border-stone-500 resize-none" placeholder="Please give use why you cannot attend on our wedding . . "></textarea>
                                 </div>
                             </div>
                         </div>
