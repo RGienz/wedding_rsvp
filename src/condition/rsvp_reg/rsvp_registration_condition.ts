@@ -9,7 +9,8 @@ export interface RSVPPayload {
   dietary: string
   drinkPreference: string
   shuttleRequired: string
-  message: string
+  message: string,
+  notToAttendMessageReg : string
 }
 
 export function useRSVPRegistration() {
@@ -22,7 +23,8 @@ export function useRSVPRegistration() {
     dietary: '',
     drinkPreference: '',
     shuttleRequired: '',
-    message: ''
+    message: '',
+    notToAttendMessageReg : ''
   })
 
   const isSubmitted = ref(false)
