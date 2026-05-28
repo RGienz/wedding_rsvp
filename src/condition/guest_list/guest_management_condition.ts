@@ -9,7 +9,7 @@ export interface Guest {
 //   plusOneName?: string
 //   shuttleRequired: 'yes' | 'no' | 'none'
   message?: string
-  notToAttendMessage : string
+  notToAttendMessage?: string;
 }
 
 export function useGuestManagement() {
