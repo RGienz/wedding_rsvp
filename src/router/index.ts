@@ -12,7 +12,7 @@ const router = createRouter({
       component: Home_Rs,
     },
     {
-      path: '/guest_list_master',
+      path: '/guest_list',
       name: 'Guest_List',
       component: Guest_List,
       beforeEnter: (to, from, next) => {
