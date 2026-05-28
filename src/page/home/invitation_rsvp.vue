@@ -228,7 +228,7 @@ const {
 
         <!-- fourth page -->
         <section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden py-20 px-4 bg-[#f4f1eb]">
-            <img src="../../reference/sageGreen4.png" class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-multiply" alt="Background Texture" />
+            <img src="../../reference/image/sageGreen4.png" class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-multiply" alt="Background Texture" />
             
             <div class="relative z-10 w-full max-w-xl mx-auto text-center text-[#2c2c2c] bg-white/80 backdrop-blur-xl p-8 sm:p-10 rounded shadow-md border border-white">
                 <span class="text-[10px] tracking-[0.4em] uppercase text-stone-400 block mb-1 font-sans">Attendance Check-In</span>
