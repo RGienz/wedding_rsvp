@@ -55,7 +55,7 @@ const {
                         <label class="block text-[10px] uppercase tracking-[0.15em] font-medium text-stone-500 mb-1.5">Guest Full Name</label>
                         <input 
                             v-model="newGuestName" 
-                            @input="newGuestName = newGuestName.replace(/[^a-zA-Z]/g, '')"
+                            @input="newGuestName = newGuestName.replace(/[^a-zA-Z]/g, ' ')"
                             type="text" 
                             required 
                             placeholder="e.g., Luna Bear" 
